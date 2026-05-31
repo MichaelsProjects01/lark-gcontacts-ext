@@ -1,8 +1,7 @@
-import { useState, useRef, useCallback, useEffect } from 'react';
-import { searchContacts, Contact } from '../googleApi';
-import { writeContact } from '../larkBase';
+import { searchContacts, Contact } from './googleApi';
+import { writeContact } from './larkBase';
 import { PushButton } from './PushButton';
-import { storage } from '../storage';
+import { storage } from './storage';
 
 interface Props {
   onDisconnect: () => void;
