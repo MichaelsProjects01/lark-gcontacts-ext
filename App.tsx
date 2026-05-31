@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { storage } from './storage';
-import { AuthScreen } from './components/AuthScreen';
-import { SearchPanel } from './components/SearchPanel';
+import { AuthScreen } from './AuthScreen';
+import { SearchPanel } from './SearchPanel';
 
 type View = 'loading' | 'auth' | 'search';
 
