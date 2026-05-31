@@ -1,6 +1,5 @@
-import { useState, useEffect } from 'react';
-import { startOAuth, exchangeCode } from '../oauth';
-import { storage } from '../storage';
+import { startOAuth, exchangeCode } from './oauth';
+import { storage } from './storage';
 
 interface Props {
   onConnected: () => void;
