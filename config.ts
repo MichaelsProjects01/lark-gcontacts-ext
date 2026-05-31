@@ -6,3 +6,4 @@ export const CONFIG = {
   LEAD_CAPTURE_TOKEN: import.meta.env.VITE_LEAD_CAPTURE_TOKEN as string,
   REFERRED_BY: (import.meta.env.VITE_REFERRED_BY as string) || 'George',
 };
+
