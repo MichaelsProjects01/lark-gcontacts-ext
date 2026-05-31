@@ -1,6 +1,5 @@
-import { useState } from 'react';
-import { readCurrentRecord } from '../larkBase';
-import { CONFIG } from '../config';
+import { readCurrentRecord } from './larkBase';
+import { CONFIG } from './config';
 
 export function PushButton() {
   const [loading, setLoading] = useState(false);
